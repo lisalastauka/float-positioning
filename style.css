@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height:2000px;
+    font-family:"Myriad Pro", sans-serif;
+    color: rgb( 51, 51, 51 );
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Myriad Pro');
+}
+
+p {
+    font-size: 12px;
+}
+
+h1{
+    font-size: 24px;
+    margin: 0 auto 12px auto;
+}
+
+h2{
+    font-size: 18px;
+    margin: 50px 0 20px 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ticket{
+    padding:8px 0;
+    font-size: 15px;
+    border:solid 1px rgb( 54, 47, 45 );
+    background-color: rgb( 251, 175, 93 );
+    position: fixed;
+    text-align: center;
+    width: 88px;
+    height: 70px;
+    bottom:10px;
+    right:0;
+}
+
+.ticket img {
+     margin-top:6px;
+}
+
+.wrapper {
+    width: 530px;
+    margin: auto;
+    padding-top: 199px;
+}
+
+.rectangle{
+    border:solid 2px rgb( 0, 0, 0 );
+    position: relative;
+    width: 519px;
+    height: 747px;
+}
+.rect_1 {
+    background-color: rgb( 235, 235, 235 );
+    bottom: 53px;
+    right: 21px;
+}
+
+.rect_2 {
+    background-color: rgb( 204, 204, 204 );
+    bottom: 53px;
+    right: 21px;
+}
+
+.rect_3 {
+    background-color: rgb( 172, 172, 172 );
+}
+
+.bookmark{
+    border: solid 2px rgb( 0, 0, 0 );
+    position: relative;
+    border-radius: 0 10px 10px 0;
+    top: 38px;
+    width: 108px;
+    height: 32px;
+    
+}
+.bookmark_1 {
+    background-color: rgb( 246, 142, 86 );
+    left: 492px;
+}
+
+.bookmark_2 {
+    background-color: rgb( 57, 181, 74 );
+    left: 458px;
+}
+
+.bookmark_3 {
+    background-color: rgb( 0, 174, 239 );
+    left: 428px;
+}
+
+.content {
+    padding: 0 28px;
+    text-align: left;
+}
+
+.img_1 {
+    width: 207px;
+    height: 111px;
+    margin: 0 23px 15px 2px;
+}
+
+.img_2 {   
+    width: 140px;
+    height: 140px;
+    margin-left: 6px;
+}
+
+.post_block{
+ margin-bottom: 25px; 
+}
+
+.post_block img{
+    width: 194px;
+    height: 88px;
+    margin-bottom: 14px;
+}
+
+.footer {
+    clear:both;
+    padding:15px 0;
+    font-size: 9px;
+    text-align: center;
+}
+
